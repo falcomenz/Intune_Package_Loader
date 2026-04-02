@@ -1,0 +1,26 @@
+Windows/Client Scripts/.DS_Store
+.DS_Store
+
+
+# Für Netzlaufwerke anbinden
+Windows/Netzlaufwerke anbinden/.vs/
+Windows/Netzlaufwerke anbinden/NetzlaufwerkeApp-MSI-Package/obj/
+Windows/Netzlaufwerke anbinden/packages/
+Windows/Netzlaufwerke anbinden/**/obj/
+Windows/Netzlaufwerke anbinden/**/bin/
+
+#Für IntuneTeamsBot
+IntuneTeamsBot/Bot-Code/.env
+IntuneTeamsBot/Bot-Code/venv/
+IntuneTeamsBot/**/__pycache__/
+IntuneTeamsBot/**/*.py[cod]
+IntuneTeamsBot/Bot-Code/agent_memory/memory_store/ 
+IntuneTeamsBot/app.zip
+IntuneTeamsBot/runbookScripts/*.json
+
+#InnoAbbau Ordner
+Voice/excelRufnummern/avenv/
+Voice/excelRufnummern/build/
+Voice/excelRufnummern/dist/
+Voice/excelRufnummern/innoAbbau.spec
+Voice/excelRufnummern/__pycache__/

@@ -1,0 +1,83 @@
+{
+  "buildCommand" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildAndRun"
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "e699764135211dd1282ecdcba2fb421cc7ad0b8537a97918362b213045398729"
+    }
+  ],
+  "containerPath" : "/Users/falco.menz/Documents/macOS_pkg_Intune_loader/IntunePackageLoader.xcodeproj",
+  "continueBuildingAfterErrors" : false,
+  "dependencyScope" : "workspace",
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "install",
+    "activeArchitecture" : "undefined_arch",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : true,
+      "hostTargetedPlatform" : null,
+      "platform" : "macosx",
+      "sdk" : "macosx26.4",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "arm64",
+        "arm64e",
+        "x86_64",
+        "x86_64h"
+      ],
+      "targetArchitecture" : "undefined_arch"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/falco.menz/Documents/macOS_pkg_Intune_loader/build/ArchiveProbe/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/falco.menz/Documents/macOS_pkg_Intune_loader/build/ArchiveProbe/Build/Products",
+      "derivedDataPath" : "/Users/falco.menz/Documents/macOS_pkg_Intune_loader/build/ArchiveProbe",
+      "indexDataStoreFolderPath" : "/Users/falco.menz/Documents/macOS_pkg_Intune_loader/build/ArchiveProbe/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/falco.menz/Documents/macOS_pkg_Intune_loader/build/ArchiveProbe/Index.noindex/PrecompiledHeaders",
+      "pchPath" : "/Users/falco.menz/Documents/macOS_pkg_Intune_loader/build/ArchiveProbe/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Release",
+    "overrides" : {
+      "commandLine" : {
+        "table" : {
+          "CODE_SIGN_IDENTITY" : "",
+          "CODE_SIGNING_ALLOWED" : "NO",
+          "CODE_SIGNING_REQUIRED" : "NO"
+        }
+      },
+      "synthesized" : {
+        "table" : {
+          "ACTION" : "install",
+          "ASSET_PACK_FOLDER_PATH" : "/Users/falco.menz/Documents/macOS_pkg_Intune_loader/build/ArchiveProbe/Build/Intermediates.noindex/ArchiveIntermediates/IntunePackageLoader/InstallationBuildProductsLocation/OnDemandResources",
+          "ASSETCATALOG_COMPILER_FLATTENED_APP_ICON_PATH" : "/Users/falco.menz/Documents/macOS_pkg_Intune_loader/build/ArchiveProbe/Build/Intermediates.noindex/ArchiveIntermediates/IntunePackageLoader/BuildProductsPath/ProductIcon.png",
+          "DEPLOYMENT_LOCATION" : "YES",
+          "DEPLOYMENT_POSTPROCESSING" : "YES",
+          "DSTROOT" : "/Users/falco.menz/Documents/macOS_pkg_Intune_loader/build/ArchiveProbe/Build/Intermediates.noindex/ArchiveIntermediates/IntunePackageLoader/InstallationBuildProductsLocation",
+          "EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE" : "NO",
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_SIGNATURE_AGGREGATION" : "YES",
+          "ENABLE_XOJIT_PREVIEWS" : "YES",
+          "INDEX_ENABLE_DATA_STORE" : "NO",
+          "MESSAGES_APPLICATION_EXTENSION_SUPPORT_FOLDER_PATH" : "/Users/falco.menz/Documents/macOS_pkg_Intune_loader/build/ArchiveProbe/Build/Intermediates.noindex/ArchiveIntermediates/IntunePackageLoader/BuildProductsPath/MessagesApplicationExtensionSupport",
+          "MESSAGES_APPLICATION_SUPPORT_FOLDER_PATH" : "/Users/falco.menz/Documents/macOS_pkg_Intune_loader/build/ArchiveProbe/Build/Intermediates.noindex/ArchiveIntermediates/IntunePackageLoader/BuildProductsPath/MessagesApplicationSupport",
+          "OBJROOT" : "/Users/falco.menz/Documents/macOS_pkg_Intune_loader/build/ArchiveProbe/Build/Intermediates.noindex/ArchiveIntermediates/IntunePackageLoader/IntermediateBuildFilesPath",
+          "SHARED_PRECOMPS_DIR" : "/Users/falco.menz/Documents/macOS_pkg_Intune_loader/build/ArchiveProbe/Build/Intermediates.noindex/ArchiveIntermediates/IntunePackageLoader/PrecompiledHeaders",
+          "SIGNATURE_METADATA_FOLDER_PATH" : "/Users/falco.menz/Documents/macOS_pkg_Intune_loader/build/ArchiveProbe/Build/Intermediates.noindex/ArchiveIntermediates/IntunePackageLoader/BuildProductsPath/Signatures",
+          "SWIFT_STDLIB_TOOL_UNSIGNED_DESTINATION_DIR" : "/Users/falco.menz/Documents/macOS_pkg_Intune_loader/build/ArchiveProbe/Build/Intermediates.noindex/ArchiveIntermediates/IntunePackageLoader/BuildProductsPath/SwiftSupport",
+          "SYMROOT" : "/Users/falco.menz/Documents/macOS_pkg_Intune_loader/build/ArchiveProbe/Build/Intermediates.noindex/ArchiveIntermediates/IntunePackageLoader/BuildProductsPath",
+          "WATCHKIT_2_SUPPORT_FOLDER_PATH" : "/Users/falco.menz/Documents/macOS_pkg_Intune_loader/build/ArchiveProbe/Build/Intermediates.noindex/ArchiveIntermediates/IntunePackageLoader/BuildProductsPath/WatchKitSupport2"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "archive",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

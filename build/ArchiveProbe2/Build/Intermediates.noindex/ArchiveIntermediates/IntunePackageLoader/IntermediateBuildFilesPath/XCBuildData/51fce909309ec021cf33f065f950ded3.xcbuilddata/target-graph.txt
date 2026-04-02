@@ -1,0 +1,4 @@
+Target dependency graph (2 targets)
+Target 'IntunePackageLoader' in project 'IntunePackageLoader'
+➜ Explicit dependency on target 'IntunePackageMirrorService' in project 'IntunePackageLoader'
+Target 'IntunePackageMirrorService' in project 'IntunePackageLoader' (no dependencies)

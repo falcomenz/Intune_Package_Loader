@@ -1,0 +1,36 @@
+{
+  "" : {
+    "const-values" : "/Users/falco.menz/Documents/macOS_pkg_Intune_loader/build/DerivedData/Build/Intermediates.noindex/IntunePackageLoader.build/Release/IntunePackageLoader.build/Objects-normal/arm64/IntunePackageLoader-primary.swiftconstvalues",
+    "dependencies" : "/Users/falco.menz/Documents/macOS_pkg_Intune_loader/build/DerivedData/Build/Intermediates.noindex/IntunePackageLoader.build/Release/IntunePackageLoader.build/Objects-normal/arm64/IntunePackageLoader-primary.d",
+    "diagnostics" : "/Users/falco.menz/Documents/macOS_pkg_Intune_loader/build/DerivedData/Build/Intermediates.noindex/IntunePackageLoader.build/Release/IntunePackageLoader.build/Objects-normal/arm64/IntunePackageLoader-primary.dia",
+    "emit-module-dependencies" : "/Users/falco.menz/Documents/macOS_pkg_Intune_loader/build/DerivedData/Build/Intermediates.noindex/IntunePackageLoader.build/Release/IntunePackageLoader.build/Objects-normal/arm64/IntunePackageLoader-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/falco.menz/Documents/macOS_pkg_Intune_loader/build/DerivedData/Build/Intermediates.noindex/IntunePackageLoader.build/Release/IntunePackageLoader.build/Objects-normal/arm64/IntunePackageLoader-primary-emit-module.dia",
+    "pch" : "/Users/falco.menz/Documents/macOS_pkg_Intune_loader/build/DerivedData/Build/Intermediates.noindex/IntunePackageLoader.build/Release/IntunePackageLoader.build/Objects-normal/arm64/IntunePackageLoader-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/falco.menz/Documents/macOS_pkg_Intune_loader/build/DerivedData/Build/Intermediates.noindex/IntunePackageLoader.build/Release/IntunePackageLoader.build/Objects-normal/arm64/IntunePackageLoader-primary.swiftdeps"
+  },
+  "/Users/falco.menz/Documents/macOS_pkg_Intune_loader/IntunePackageLoaderApp/Sources/AppModel.swift" : {
+    "index-unit-output-path" : "/IntunePackageLoader.build/Release/IntunePackageLoader.build/Objects-normal/arm64/AppModel.o",
+    "llvm-bc" : "/Users/falco.menz/Documents/macOS_pkg_Intune_loader/build/DerivedData/Build/Intermediates.noindex/IntunePackageLoader.build/Release/IntunePackageLoader.build/Objects-normal/arm64/AppModel.bc",
+    "object" : "/Users/falco.menz/Documents/macOS_pkg_Intune_loader/build/DerivedData/Build/Intermediates.noindex/IntunePackageLoader.build/Release/IntunePackageLoader.build/Objects-normal/arm64/AppModel.o"
+  },
+  "/Users/falco.menz/Documents/macOS_pkg_Intune_loader/IntunePackageLoaderApp/Sources/ContentView.swift" : {
+    "index-unit-output-path" : "/IntunePackageLoader.build/Release/IntunePackageLoader.build/Objects-normal/arm64/ContentView.o",
+    "llvm-bc" : "/Users/falco.menz/Documents/macOS_pkg_Intune_loader/build/DerivedData/Build/Intermediates.noindex/IntunePackageLoader.build/Release/IntunePackageLoader.build/Objects-normal/arm64/ContentView.bc",
+    "object" : "/Users/falco.menz/Documents/macOS_pkg_Intune_loader/build/DerivedData/Build/Intermediates.noindex/IntunePackageLoader.build/Release/IntunePackageLoader.build/Objects-normal/arm64/ContentView.o"
+  },
+  "/Users/falco.menz/Documents/macOS_pkg_Intune_loader/IntunePackageLoaderApp/Sources/IntunePackageLoaderApp.swift" : {
+    "index-unit-output-path" : "/IntunePackageLoader.build/Release/IntunePackageLoader.build/Objects-normal/arm64/IntunePackageLoaderApp.o",
+    "llvm-bc" : "/Users/falco.menz/Documents/macOS_pkg_Intune_loader/build/DerivedData/Build/Intermediates.noindex/IntunePackageLoader.build/Release/IntunePackageLoader.build/Objects-normal/arm64/IntunePackageLoaderApp.bc",
+    "object" : "/Users/falco.menz/Documents/macOS_pkg_Intune_loader/build/DerivedData/Build/Intermediates.noindex/IntunePackageLoader.build/Release/IntunePackageLoader.build/Objects-normal/arm64/IntunePackageLoaderApp.o"
+  },
+  "/Users/falco.menz/Documents/macOS_pkg_Intune_loader/IntunePackageLoaderApp/Sources/PrivilegedHelperClient.swift" : {
+    "index-unit-output-path" : "/IntunePackageLoader.build/Release/IntunePackageLoader.build/Objects-normal/arm64/PrivilegedHelperClient.o",
+    "llvm-bc" : "/Users/falco.menz/Documents/macOS_pkg_Intune_loader/build/DerivedData/Build/Intermediates.noindex/IntunePackageLoader.build/Release/IntunePackageLoader.build/Objects-normal/arm64/PrivilegedHelperClient.bc",
+    "object" : "/Users/falco.menz/Documents/macOS_pkg_Intune_loader/build/DerivedData/Build/Intermediates.noindex/IntunePackageLoader.build/Release/IntunePackageLoader.build/Objects-normal/arm64/PrivilegedHelperClient.o"
+  },
+  "/Users/falco.menz/Documents/macOS_pkg_Intune_loader/Shared/Sources/PrivilegedHelperProtocol.swift" : {
+    "index-unit-output-path" : "/IntunePackageLoader.build/Release/IntunePackageLoader.build/Objects-normal/arm64/PrivilegedHelperProtocol.o",
+    "llvm-bc" : "/Users/falco.menz/Documents/macOS_pkg_Intune_loader/build/DerivedData/Build/Intermediates.noindex/IntunePackageLoader.build/Release/IntunePackageLoader.build/Objects-normal/arm64/PrivilegedHelperProtocol.bc",
+    "object" : "/Users/falco.menz/Documents/macOS_pkg_Intune_loader/build/DerivedData/Build/Intermediates.noindex/IntunePackageLoader.build/Release/IntunePackageLoader.build/Objects-normal/arm64/PrivilegedHelperProtocol.o"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "/Users/falco.menz/Documents/macOS_pkg_Intune_loader/IntunePackageLoaderApp/Sources/AppModel.swift" : {
+    "abi-baseline-json" : "/Users/falco.menz/Documents/macOS_pkg_Intune_loader/build/ArchiveProbe/Build/Intermediates.noindex/ArchiveIntermediates/IntunePackageLoader/IntermediateBuildFilesPath/IntunePackageLoader.build/Release/IntunePackageLoader.build/Objects-normal/arm64/IntunePackageLoader.abi.json",
+    "const-values" : "/Users/falco.menz/Documents/macOS_pkg_Intune_loader/build/ArchiveProbe/Build/Intermediates.noindex/ArchiveIntermediates/IntunePackageLoader/IntermediateBuildFilesPath/IntunePackageLoader.build/Release/IntunePackageLoader.build/Objects-normal/arm64/IntunePackageLoader-primary.swiftconstvalues",
+    "dependencies" : "/Users/falco.menz/Documents/macOS_pkg_Intune_loader/build/ArchiveProbe/Build/Intermediates.noindex/ArchiveIntermediates/IntunePackageLoader/IntermediateBuildFilesPath/IntunePackageLoader.build/Release/IntunePackageLoader.build/Objects-normal/arm64/IntunePackageLoader-primary.d",
+    "diagnostics" : "/Users/falco.menz/Documents/macOS_pkg_Intune_loader/build/ArchiveProbe/Build/Intermediates.noindex/ArchiveIntermediates/IntunePackageLoader/IntermediateBuildFilesPath/IntunePackageLoader.build/Release/IntunePackageLoader.build/Objects-normal/arm64/IntunePackageLoader-primary.dia",
+    "objc-header" : "/Users/falco.menz/Documents/macOS_pkg_Intune_loader/build/ArchiveProbe/Build/Intermediates.noindex/ArchiveIntermediates/IntunePackageLoader/IntermediateBuildFilesPath/IntunePackageLoader.build/Release/IntunePackageLoader.build/Objects-normal/arm64/IntunePackageLoader-Swift.h",
+    "swiftdoc" : "/Users/falco.menz/Documents/macOS_pkg_Intune_loader/build/ArchiveProbe/Build/Intermediates.noindex/ArchiveIntermediates/IntunePackageLoader/IntermediateBuildFilesPath/IntunePackageLoader.build/Release/IntunePackageLoader.build/Objects-normal/arm64/IntunePackageLoader.swiftdoc",
+    "swiftmodule" : "/Users/falco.menz/Documents/macOS_pkg_Intune_loader/build/ArchiveProbe/Build/Intermediates.noindex/ArchiveIntermediates/IntunePackageLoader/IntermediateBuildFilesPath/IntunePackageLoader.build/Release/IntunePackageLoader.build/Objects-normal/arm64/IntunePackageLoader.swiftmodule",
+    "swiftsourceinfo" : "/Users/falco.menz/Documents/macOS_pkg_Intune_loader/build/ArchiveProbe/Build/Intermediates.noindex/ArchiveIntermediates/IntunePackageLoader/IntermediateBuildFilesPath/IntunePackageLoader.build/Release/IntunePackageLoader.build/Objects-normal/arm64/IntunePackageLoader.swiftsourceinfo"
+  }
+}

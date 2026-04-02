@@ -1,0 +1,64 @@
+{
+  "buildCommand" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildOnly"
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "e699764135211dd1282ecdcba2fb421cc7ad0b8537a97918362b213045398729"
+    }
+  ],
+  "containerPath" : "/Users/falco.menz/Documents/macOS_pkg_Intune_loader/IntunePackageLoader.xcodeproj",
+  "continueBuildingAfterErrors" : false,
+  "dependencyScope" : "workspace",
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "hostTargetedPlatform" : null,
+      "platform" : "macosx",
+      "sdk" : "macosx26.4",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "arm64e",
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/falco.menz/Documents/macOS_pkg_Intune_loader/build/DerivedData/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/falco.menz/Documents/macOS_pkg_Intune_loader/build/DerivedData/Build/Products",
+      "derivedDataPath" : "/Users/falco.menz/Documents/macOS_pkg_Intune_loader/build/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/falco.menz/Documents/macOS_pkg_Intune_loader/build/DerivedData/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/falco.menz/Documents/macOS_pkg_Intune_loader/build/DerivedData/Index.noindex/PrecompiledHeaders",
+      "pchPath" : "/Users/falco.menz/Documents/macOS_pkg_Intune_loader/build/DerivedData/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Release",
+    "overrides" : {
+      "commandLine" : {
+        "table" : {
+          "CODE_SIGNING_ALLOWED" : "NO"
+        }
+      },
+      "synthesized" : {
+        "table" : {
+          "ACTION" : "build",
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "YES"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

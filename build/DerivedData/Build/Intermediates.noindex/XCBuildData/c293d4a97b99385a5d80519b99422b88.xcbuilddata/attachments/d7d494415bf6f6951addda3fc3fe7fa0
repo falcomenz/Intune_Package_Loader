@@ -1,0 +1,18 @@
+#!/bin/sh
+set -euo pipefail
+HELPER_LABEL="de.axelspringer.intune.package-loader.mirror-service"
+APP_INFO_PLIST="$TARGET_BUILD_DIR/$INFOPLIST_PATH"
+RESOURCES_DIR="$TARGET_BUILD_DIR/$CONTENTS_FOLDER_PATH/Resources"
+LAUNCH_SERVICES_DIR="$TARGET_BUILD_DIR/$CONTENTS_FOLDER_PATH/Library/LaunchServices"
+HELPER_REQUIREMENT='identifier "de.axelspringer.intune.package-loader.mirror-service" and anchor apple generic and certificate leaf[subject.OU] = "B8ZGRP93K6"'
+mkdir -p "$RESOURCES_DIR" "$LAUNCH_SERVICES_DIR"
+/usr/libexec/PlistBuddy -c "Delete :CFBundleIconFile" "$APP_INFO_PLIST" >/dev/null 2>&1 || true
+/usr/libexec/PlistBuddy -c "Add :CFBundleIconFile string IntuneDownload" "$APP_INFO_PLIST"
+/usr/libexec/PlistBuddy -c "Delete :SMPrivilegedExecutables" "$APP_INFO_PLIST" >/dev/null 2>&1 || true
+/usr/libexec/PlistBuddy -c "Add :SMPrivilegedExecutables dict" "$APP_INFO_PLIST"
+/usr/libexec/PlistBuddy -c "Add :SMPrivilegedExecutables:de.axelspringer.intune.package-loader.mirror-service string $HELPER_REQUIREMENT" "$APP_INFO_PLIST"
+install -m 644 "$SRCROOT/IntunePackageLoaderApp/Resources/IntuneDownload.icns" "$RESOURCES_DIR/IntuneDownload.icns"
+install -m 755 "$BUILT_PRODUCTS_DIR/$HELPER_LABEL" "$LAUNCH_SERVICES_DIR/$HELPER_LABEL"
+rm -rf "$TARGET_BUILD_DIR/$CONTENTS_FOLDER_PATH/Helpers"
+rm -f "$RESOURCES_DIR/IntunePackageMirrorService" "$RESOURCES_DIR/$HELPER_LABEL"
+
