@@ -116,28 +116,6 @@ Important project facts:
 IntunePackageLoader.app/Contents/Library/LaunchServices/de.axelspringer.intune.package-loader.mirror-service
 ```
 
-## Archive And Distribution
-
-For a proper archive that Xcode recognizes as a `macOS App Archive`:
-
-- the helper target must not be archived as a standalone installable tool
-- the helper is embedded into the app bundle during the app target post-build step
-- the archive should contain the app under `Products/Applications`
-
-To create a distributable archive:
-
-1. Open the project in Xcode.
-2. Set your signing team for app and helper.
-3. Use `Developer ID Application` signing for distribution builds.
-4. Run `Product > Clean Build Folder`.
-5. Run `Product > Archive`.
-6. Use Organizer for export / notarization.
-
-If Organizer still does not offer direct distribution, check:
-
-- app and helper are both signed
-- the archive appears as `macOS App Archive`, not `Other Items`
-- the archive `Info.plist` contains `ApplicationProperties`
 
 ## Important Paths
 
